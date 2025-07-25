@@ -32,3 +32,10 @@ Click two cards to reveal their values. If they match, they stay flipped. Win wh
 
 ## Running Tests
 python test_matching_card_numbers_game.py
+
+## License
+This project is licensed under the MIT License.
+
+## Author
+- Andrei Iliescu
+- Built with focus on clean UI and functional design.
