@@ -96,7 +96,7 @@ def main():
 
         if all(card.is_matched for card in cards):
             WIN.fill(BG_COLOR)
-            win_text = font.render("Ai câștigat!", True, (255, 255, 255))
+            win_text = font.render("You Won!", True, (255, 255, 255))
             win_rect = win_text.get_rect(center=(WIDTH // 2, HEIGHT // 2))
             WIN.blit(win_text, win_rect)
             pygame.display.update()
